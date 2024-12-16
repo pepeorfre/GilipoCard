@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         alert('Gracias por tu compra. Pronto recibirás tu carné.');
     });
-});
+});<textarea>
 // Seleccionar el área de texto y el contador
 const mensaje = document.getElementById('mensaje');
 const wordCount = document.getElementById('wordCount');

@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -28,6 +29,7 @@ header .logo p {
     padding: 10px;
 }
 
+/* Tarjetas de productos */
 .product-card {
     display: inline-block;
     margin: 15px;
@@ -47,6 +49,7 @@ header .logo p {
     margin: 10px 0;
 }
 
+/* Botones generales */
 button {
     padding: 10px 15px;
     background-color: #ff5722;
@@ -60,9 +63,79 @@ button:hover {
     background-color: #e64a19;
 }
 
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical; /* Permite ajustar el tamaño vertical */
+    height: 100px;
+}
+
+form input[type="file"] {
+    border: none;
+    padding: 5px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+/* Contador de palabras */
+#wordCount {
+    font-size: 0.9em;
+    color: #555;
+    text-align: left;
+    width: 100%;
+}
+
+/* Testimonios */
+.testimonials p {
+    font-style: italic;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #212121;
     color: white;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ff9800;
 }
